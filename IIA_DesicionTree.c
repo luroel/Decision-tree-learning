@@ -12,3 +12,8 @@ tree=fitctree(wq,'quality')
 view(tree)
 view(tree,'mode', 'graph');
 
+A = wq(:,11) %escribe la columna 11
+% B = wq(:,6)
+A = table2array(A) %Convierte tabla a array
+% B = table2array(B)
+% 
